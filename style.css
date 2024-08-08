@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+/* Glassmorphism Background */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #e09, #d0e);
+    font-family: 'Madimi One', sans-serif;
+}
+
+/* HexCode Display */
+h1#hexcode {
+    font-size: 4.3rem;
+    color: aliceblue;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.btn-ctr {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.4s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.4);
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+button i {
+    font-size: 1.5rem;
+}
